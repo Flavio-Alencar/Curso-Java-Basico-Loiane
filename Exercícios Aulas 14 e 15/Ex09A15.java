@@ -1,8 +1,8 @@
-//Exercício 08 - Aula 15
+//Exercício 09 - Aula 15
 
 //Faça um Programa que leia três números e mostre-os em ordem decrescente.
 //Usando o Comando if - else
-//Autor: Flávio Alencar - 28AGO24 - 15h31
+//Autor: Flávio Alencar - 28AGO24 - 20h45
 
 import java.util.Scanner; //Importando a classe Scanner
 
