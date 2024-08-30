@@ -35,8 +35,7 @@ public class Ex15A15
         
         if ((lado1 + lado2) > lado3 && (lado1 + lado3) > lado2 && (lado2 + lado3) > lado1)
         {
-            System.out.println("Os Lados Formam um triângulo!");
-            
+                  
             if (lado1 == lado2 && lado2 == lado3 && lado3 ==lado1)
             {
                 System.out.println("Os Lados Formam um Triângulo Equilátero");                
