@@ -14,25 +14,22 @@ public class Ex22A15
         //Declaração de Variáveis
         //----------------------------------
         
-        double numero;        //Valor do numero.
-        double valor;         //Valor de referencia se será inteiro ou decimal
+        int numero;        //Valor do numero.
+        int resto;         //Valor do resto.
         
         //-----------------------------------
         
-        System.out.print("Digite um Número: ");
-        numero = scan.nextDouble();
+        System.out.print("Digite um Número Inteiro: ");
+        numero = scan.nextInt();
         System.out.println("                            ");
         
-        valor = Math.round(numero);
+        resto = numero % 2;
         
-       if (numero == valor)
-       {
-           System.out.println("O Valor é Inteiro");
-       }
-       else
-       {
-           System.out.println("O Valor é Decimal");
-       }
+        switch (resto)
+        {
+            case 0: System.out.println("O Número é Par"); break;
+            default: System.out.println("O Número é Ímpar"); break;
+        }
     }
     
 }
