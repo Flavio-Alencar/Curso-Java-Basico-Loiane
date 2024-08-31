@@ -1,4 +1,4 @@
-//Exercício 15 - Aula 15
+//Exercício 16 - Aula 15
 
 //Faça um programa que calcule as raízes de uma equação do segundo grau, na forma ax2 + bx + c = 0.
 //Autor: Flávio Alencar - 30AGO24 - 16h26
