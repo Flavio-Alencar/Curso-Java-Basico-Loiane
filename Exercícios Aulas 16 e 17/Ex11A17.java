@@ -1,15 +1,14 @@
-//Exercício 10 - Aula 17
+//Exercício 11 - Aula 17
 
-//Faça um programa que receba dois números inteiros e gere os números inteiros 
-//que estão no intervalo compreendido por eles.
+//Altere o programa anterior para mostrar no final a soma dos números.
 //Method: do - while - if - else - for
 //Autor: Flávio Alencar - 13SET24 - 22h17
 
 import java.util.Scanner;
 
-public class Ex10A17 
+public class Ex11A17 
 {
-    public static void main (String[] args)
+     public static void main (String[] args)
     {
         Scanner scan = new Scanner(System.in);
         
@@ -18,7 +17,8 @@ public class Ex10A17
         int num1 = 0;                             //Variável que armazena o valor digitado.
         int num2 = 0;                             //Variável que armazena o segundo valor digitado.
         int maxNum = 0;                           //Variável que armazena o maior valor.
-        int minNum = 0;                           //Variável que armazena o menor valor
+        int minNum = 0;                           //Variável que armazena o menor valor.
+        int soma = 0;                             //Variável que armazena a soma dos números.
         //-----------------------------------------------------------------------------------------
         
         System.out.print("Digite um Número Inteiro: ");
@@ -42,8 +42,11 @@ public class Ex10A17
         
        for (int i = minNum; i <= maxNum; i++)
         {
-            System.out.println(i);
+            soma += i;
         }
+       
+       System.out.println("A Soma dos Números no Intervalo Digitado: " +soma);
         
-    }    
+    }
+    
 }
