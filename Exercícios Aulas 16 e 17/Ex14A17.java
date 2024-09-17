@@ -1,4 +1,4 @@
-//Exercício 12 - Aula 17
+//Exercício 14 - Aula 17
 
 //Faça um programa que peça 10 números inteiros, calcule e mostre a quantidade 
 //de números pares e a quantidade de números impares.
@@ -15,7 +15,6 @@ public class Ex14A17
         
         //                               Variaveis
         //-----------------------------------------------------------------------------------------
-      //  int num = 0;                              //Variável que armazena o número digitado.
         int qntPar = 0;                           //Variável que armazena a quantidade de números pares
         int qntImpar = 0;                         //Variavel que armazena a quantidade de números ímpares
         //-----------------------------------------------------------------------------------------
