@@ -1,7 +1,7 @@
 //Exercício 14 - Aula 19
 //Criar um vetor A com 10 elementos inteiros. Implementar um programa que defina
 //e escreva a média aritmética simples dos elementos ímpares armazenados neste vetor.
-//Method: Array - for
+//Method: Array - for - if
 //Autor: Flávio Alencar - 28SET24 - 11h38 AM
 
 import java.util.Scanner; 

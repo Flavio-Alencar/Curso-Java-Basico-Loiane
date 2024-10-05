@@ -1,7 +1,7 @@
 //Exercício 15 - Aula 19
 //Criar um vetor A com 10 elementos inteiros. Desenvolver um programa que defina
 //o percentual de elementos pares e ímpares, respectivamente, armazenados neste vetor.
-//Method: Array - for
+//Method: Array - for - if - else
 //Autor: Flávio Alencar - 28SET24 - 11h54 AM
 
 import java.util.Scanner;

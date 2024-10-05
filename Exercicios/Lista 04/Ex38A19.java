@@ -1,14 +1,14 @@
-//Exercício 28 - Aula 19
-//Ler um vetor A com 10 elementos e construir um vetor B de mesmo tipo e tamanho
-//e com os mesmos elementos de A, sendo que estes deverão estar invertidos, 
-//ou seja, o primeiro elemento de A passa a ser o último de B, o segundo elemento
-//de A passa a ser o penúltimo de B e assim por diante.
-//Method: Array - for
-//Autor: Flávio Alencar - 30SET24 - 17h46 
+//Exercício 38 - Aula 19
+//Ler um vetor A com 10 elementos. Construir um vetor B de mesmo tipo e tamanho,
+//sendo que cada elemento de B deverá ser o seguinte somatório: Bi = Somatório 
+//de Aj, para todo j variando de i até 10.
+//Method: Array - for - 
+//Autor: Flávio Alencar - 05OUT24 - 17h15
 
 import java.util.Scanner;
 
-public class Ex28A19 
+
+public class Ex38A19
 {
     public static void main (String[] args)
     {
@@ -17,8 +17,8 @@ public class Ex28A19
         
          //                               Variaveis
         //-----------------------------------------------------------------------------------------
-        int[] vetorA = new int[10];            //Array vetorA
-        int[] vetorB = new int[10];            //Array vetorB
+        int[] vetorA = new int[10];               //Array A
+        int[] vetorB = new int[vetorA.length];    //VetorB
         //-----------------------------------------------------------------------------------------
         
         for (int i = 0; i < vetorA.length; i++)
@@ -30,14 +30,19 @@ public class Ex28A19
         
         for (int i = 0; i < vetorA.length; i++)
         {
-            vetorB[i] = vetorA[vetorA.length - 1 - i];
+            for (int j = i; j < vetorA.length; j++)
+            {
+                vetorB[i] += vetorA[j];
+            }
         }
         
-        System.out.printf("%s%10s%n","Vetor A", "Vetor B");
+        System.out.printf("%s%15s%n", "Vetor A", "Vetor B");
+        System.out.println();
         for (int i = 0; i < vetorA.length; i++)
         {
-            System.out.printf("%3d%10s%n", vetorA[i], vetorB[i]);
+            System.out.printf("%d%16d%n", vetorA[i], vetorB[i]);
         }
+        
     }
     
 }

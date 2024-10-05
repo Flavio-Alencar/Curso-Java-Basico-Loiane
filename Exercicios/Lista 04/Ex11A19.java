@@ -1,7 +1,7 @@
 //Exercício 11 - Aula 19
 //Criar um vetor A com 10 elementos inteiros. Implementar um programa que defina
 //e escreva a quantidade de elementos armazenados neste vetor que são pares.
-//Method: Array - for
+//Method: Array - for - if - else
 //Autor: Flávio Alencar - 28SET24 - 10h57 AM
 
 import java.util.Scanner;

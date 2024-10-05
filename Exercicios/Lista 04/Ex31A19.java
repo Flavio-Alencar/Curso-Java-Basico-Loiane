@@ -3,7 +3,7 @@
 //utilizando apenas um vetor extra B. Sugestão: no início do vetor B armazene os
 //elementos pares de A e nas posições restantes do vetor B armazene os elementos
 //de A que são ímpares.
-//Method: Array - for - if - else
+//Method: Array - for - if
 //Autor: Flávio Alencar - 30SET24 - 20h53 
 
 import java.util.Scanner;

@@ -2,7 +2,7 @@
 //Implementar um programa que obtenha a cotação do dólar (U$) em relação ao real
 //(R$) e a seguir armazene em vetor A com 20 elementos as seguintes conversões:
 //A[i] = cotação do dolar * i, para todo i variando de 1 até 20.
-//Method: Array - for - if - else
+//Method: Array - for
 //Autor: Flávio Alencar - 30SET24 - 10h23 AM
 
 import java.util.Scanner;
