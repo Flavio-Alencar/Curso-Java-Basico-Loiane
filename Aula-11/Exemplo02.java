@@ -1,6 +1,6 @@
 package Aula11;
 
-//Exemplo 01 - Aula 11
+//Exemplo 02 - Aula 11
 //Flavio Silvestre de Alencar - 08MAR26 - 19h13
 //Descrição: Tipos de Variáveis
 //------------------------------------------------------------------------------
